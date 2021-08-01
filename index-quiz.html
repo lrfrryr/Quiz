@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-quiz.css">
+    <title>Mundial Fun Facts</title>
+</head>
+<body>
+    <div class="banda">
+        <div class="contenedor-quiz" id="contenedor-quiz">
+            <div class="header">
+                <h2 id="pregunta">Pregunta</h2>
+            <ul id="box-preguntas">
+                <li><input type="radio" id="r1" name="respuesta" class="respuesta"><label id="contenido-r1" for="r1">respuesta</label></li>
+                <li><input type="radio" id="r2" name="respuesta" class="respuesta"><label id="contenido-r2" for="r2">respuesta</label></li>
+                <li><input type="radio" id="r3" name="respuesta" class="respuesta"><label id="contenido-r3" for="r3">respuesta</label></li>
+                <li><input type="radio" id="r4" name="respuesta" class="respuesta"><label id="contenido-r4" for="r4">respuesta</label></li>
+            </ul>
+            <div id=resultado>
+                <div id="box-resultado"></div>
+            </div>
+            </div>
+            <div class="wrapper">
+                <button id="siguiente"><span>Siguiente</span></button>
+                <button id="empezar-nuevo"><span>Volver a Jugar</span></button>
+            </div>
+        </div>
+    </div>
+    <script src="script-quiz.js"></script>
+</body>
+</html>
